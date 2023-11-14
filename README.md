@@ -52,9 +52,6 @@ Por último, invocamos al evento "Inicializar" para que sea lo primero que se ej
 
 > Observar que si durante el transcurso del videojuego volvemos a invocar a la función "inicializar", los fondos volverán a cambiarse (3, 2, 1).
 
-![](img/escenario-programacion.jpg "Programación del escenario")
-
-
 
 <br />
 
@@ -68,17 +65,19 @@ Por último, invocamos al evento "Inicializar" para que sea lo primero que se ej
 
 ### Programación de la pelota
 
-Añadimos al escenario el objeto que utilizaremos como bola y ajustamos el tamaño deseado.
+Nos dirigimos al objeto que utilizaremos como bola, y ajustamos el tamaño deseado. Además, inicializamos los valores por defecto que tomará dicho objeto. En este caso, la posición va a ser la posición 0 en el eje X y la posición 0 en el eje Y, es decir, (0,0).
 
-A continuación inicializamos los valores por defecto que tomará dicho objeto. En este caso, la posición va a ser la posición 0 en el eje X y la posición 0 en el eje Y, es decir, la posición (0,0).
+![](img/pong2.png)
 
-Además le tenemos que añadir un ángulo aleatorio de giro. En este caso optamos por un ángulo comprendido entre 45º y 135º para intentar que el ángulo sea lo más horizontal posible.
+También le vamos a añadir un ángulo aleatorio de giro. En este caso, vamos a optar por un ángulo comprendido entre 45º y 135º para intentar que el ángulo sea lo más horizontal posible.
 
-![](img/pelota.jpg "Programación de la pelota")
+![](img/pong3.png)
 
-Como se puede observar la velocidad de la bola será siempre la misma. Si queremos que cambie tenemos que guardar el valor en una variable. Con lo cual, creamos una variable llamada velocidad.
 
-Siempre que se utilizan variables debemos de inicializarlas a un valor por defecto. En este caso le asignamos el valor en la función principal `Presionar bandera verde`.
+
+Como se puede observar, la velocidad de la bola será siempre la misma. Si queremos que cambie, tenemos que guardar el valor en una variable. Con lo cual, creamos una variable llamada velocidad.
+
+Como ya sabemos de otras prácticas, siempre que se utilizan variables debemos de inicializarlas a un valor por defecto. En este caso le asignamos el valor en la función principal `Presionar bandera verde`.
 
 
 
