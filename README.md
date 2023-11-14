@@ -68,11 +68,19 @@ Lo primero que haremos es crear un evento "Comenzar juego" dentro de la bandera 
 
 ![](img/pong3.gif "Bandera verde - llamar a Comenzar juego")
 
-Como se puede observar, la velocidad de la bola será siempre la misma. Si queremos que cambie, tenemos que guardar el valor en una variable. Con lo cual, creamos una variable llamada velocidad.
+A continuación, hacemos código:
 
-Como ya sabemos de otras prácticas, siempre que se utilizan variables debemos de inicializarlas a un valor por defecto. En este caso le asignamos el valor en la función principal `Presionar bandera verde`.
+- La pelota se debe mover N pasos y rebotar si toca el borde. Para indicarle el valor N, creamos una variable llamada "Velocidad".
 
+NOTA: Como ya sabemos de otras prácticas, siempre que se utilizan variables debemos de inicializarlas a un valor por defecto. En este caso, le asignamos el valor en la función "Inicializar".
 
+- Si la pelota toca el borde, llamaremos al evento "Inicializar" para que vuelva a empezar el juego.
+
+![](img/pong4.gif "Bandera verde - añadir variable")
+
+Como se puede observar, la velocidad de la bola será siempre la misma. Haremos que se vaya incrementando en niveles posteriores.
+
+![](img/pong4.gif "Bandera verde - llamar a Comenzar juego")
 
 <br />
 
