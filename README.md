@@ -10,7 +10,7 @@ El videojuego consiste en hacer rebotar la pelota sin tocar los laterales de la 
 
 En este caso, como el juego no lo vamos a acabar en un día, es recomendable que antes de empezar os creéis una cuenta en Scratch para que se vayan guardando los cambios realizados automáticamente.
 
-![](img/unete.png "https://scratch.mit.edu/join") 
+![ÚNETE](img/unete.png "https://scratch.mit.edu/join") 
 
 ![](img/unete2.png "Registro con nombre de usuario y contraseña (no es necesario correo electrónico)")
 
