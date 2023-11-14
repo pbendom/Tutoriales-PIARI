@@ -10,7 +10,7 @@ El videojuego consiste en hacer rebotar la pelota sin tocar los laterales de la 
 
 En este caso, como el juego no lo vamos a acabar en un día, es recomendable que antes de empezar os creéis una cuenta en Scratch para que se vayan guardando los cambios realizados automáticamente.
 
-![ÚNETE](img/unete.png "https://scratch.mit.edu/join") 
+![](img/unete.png "https://scratch.mit.edu/join") 
 
 ![](img/unete2.png "Registro con nombre de usuario y contraseña (no es necesario correo electrónico)")
 
@@ -30,9 +30,13 @@ En este caso, como el juego no lo vamos a acabar en un día, es recomendable que
 
 ### Escenario del videojuego
 
-En primer lugar, deberemos crear 4 escenarios. Los 3 primeros corresponden a la cuenta atrás antes del inicio del juego (3, 2 y 1). El último escenario será la pantalla principal.
+En primer lugar, comprueba que tenemos creados 4 escenarios. 
 
-![](img/escenario.jpg "escenario del videojuego")
+- Los 3 primeros corresponden a la cuenta atrás antes del inicio del juego (3, 2 y 1). 
+
+- El último escenario será la pantalla principal.
+
+![](img/escenario1.jpg "escenario del videojuego")
 
 ### Programación del escenario
 
