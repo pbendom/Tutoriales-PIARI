@@ -15,11 +15,11 @@ En este caso, como el juego no lo vamos a acabar en un día, es recomendable que
 ![](img/unete2.png "Registro con nombre de usuario y contraseña (no es necesario correo electrónico)")
 
 - Reinventa el proyecto [Pong 2 Jugadores - https://scratch.mit.edu/projects/924537702/editor](https://scratch.mit.edu/projects/924537702/editor) para obtener todas las imágenes necesarias.
+
 ![](img/reinv.png)
 ![](img/reinv2.png)
 
 <br />
-
 
 
 ## Escenario
@@ -30,17 +30,17 @@ En este caso, como el juego no lo vamos a acabar en un día, es recomendable que
 
 ### Escenario del videojuego
 
-En primer lugar creamos 4 escenarios. Los 3 primeros corresponden a la cuenta atrás antes del inicio del juego (3, 2 y 1). El último escenario será la pantalla principal.
+En primer lugar, deberemos crear 4 escenarios. Los 3 primeros corresponden a la cuenta atrás antes del inicio del juego (3, 2 y 1). El último escenario será la pantalla principal.
 
 ![](img/escenario.jpg "escenario del videojuego")
 
 ### Programación del escenario
 
-Creamos el evento "inicializa" destinada al cambio de fondos. De esta forma siempre que la invoquemos al evento "inicializa", empezará la cuenta atrás mostrando los diferentes fondos.
+Creamos el evento "inicializa" destinado al cambio de fondos en la cuenta atrás. De esta forma, siempre que invoquemos al evento "inicializa", empezará la cuenta atrás mostrando los diferentes fondos (3, 2, 1).
 
-Por último invocamos al evento "Comienza juego" al presionar la bandera verde.
+Por último, invocamos al evento "Comienza juego" al presionar la bandera verde.
 
-> Observar que si durante el transcurso del videojuego volvemos a invocar a la función inicializar, los fondos volverán a cambiarse.
+> Observar que si durante el transcurso del videojuego volvemos a invocar a la función "inicializar", los fondos volverán a cambiarse (3, 2, 1).
 
 ![](img/escenario-programacion.jpg "Programación del escenario")
 
