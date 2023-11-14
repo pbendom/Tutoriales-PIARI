@@ -1,17 +1,19 @@
 ## Introducción
 
-En este tutorial con Scratch 2.0 te explicamos cómo programar el videojuego de pong en su versión para dos jugadores. El videojuego consiste en hacer rebotar la pelota sin tocar los laterales de la pantalla en cuyo caso acumulará puntos para tu rival.
+En este tutorial con Scratch veremos cómo programar el videojuego de PONG en su versión para dos jugadores. 
+
+El videojuego consiste en hacer rebotar la pelota sin tocar los laterales de la pantalla en cuyo caso acumulará puntos para tu rival.
 
 ![](img/preview.gif "Videojuego de pong con Scratch")
 
 ### Reinventa, programa y comparte
 
-Antes de continuar con las lecciones de este curso de programación con Scratch te recomendamos seguir los siguientes pasos para reinventar y obtener todas las imágenes utilizadas en el videojuego gratis.
+En este caso, como el juego no lo vamos a acabar en un día, es recomendable que antes de empezar os creéis una cuenta en Scratch para que se vayan guardando los cambios realizados automáticamente.
 
-- Reinventa el proyecto [Pong 2 Jugadores (base)](https://scratch.mit.edu/projects/118054472/editor) para obtener todas las imágenes.
-- Programa el videojuego siguiendo los videotutoriales de las siguientes lecciones.
-- Comparte el proyecto y si está entre los mejores aparecerá en la sección Mejores proyectos.
+![](img/unete.jpg "Botón "únete")
+![](img/unete2.jpg "Registro con nombre de usuario y contraseña (no es necesario correo electrónico)")
 
+- Reinventa el proyecto [Pong 2 Jugadores](https://scratch.mit.edu/projects/924537702/editor) para obtener todas las imágenes necesarias.
 
 <br />
 
