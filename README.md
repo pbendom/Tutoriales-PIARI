@@ -80,7 +80,7 @@ NOTA: Como ya sabemos de otras prácticas, siempre que se utilizan variables deb
 
 Como se puede observar, la velocidad de la bola será siempre la misma. Haremos que se vaya incrementando en niveles posteriores.
 
-![](img/pong4.gif "Bandera verde - llamar a Comenzar juego")
+![](img/pong4.png)
 
 <br />
 
