@@ -10,8 +10,8 @@ El videojuego consiste en hacer rebotar la pelota sin tocar los laterales de la 
 
 En este caso, como el juego no lo vamos a acabar en un día, es recomendable que antes de empezar os creéis una cuenta en Scratch para que se vayan guardando los cambios realizados automáticamente.
 
-![](img/unete.jpg "Botón "únete")
-![](img/unete2.jpg "Registro con nombre de usuario y contraseña (no es necesario correo electrónico)")
+![](img/unete.png "Botón "únete")
+![](img/unete2.png "Registro con nombre de usuario y contraseña (no es necesario correo electrónico)")
 
 - Reinventa el proyecto [Pong 2 Jugadores](https://scratch.mit.edu/projects/924537702/editor) para obtener todas las imágenes necesarias.
 
