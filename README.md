@@ -36,13 +36,19 @@ En primer lugar, comprueba que tenemos creados 4 escenarios.
 
 - El último escenario será la pantalla principal.
 
-![](img/escenario1.jpg "escenario del videojuego")
+![](img/escenario1.png "escenario del videojuego")
 
 ### Programación del escenario
 
-Creamos el evento "inicializa" destinado al cambio de fondos en la cuenta atrás. De esta forma, siempre que invoquemos al evento "inicializa", empezará la cuenta atrás mostrando los diferentes fondos (3, 2, 1).
+Creamos el evento "Inicializar" destinado al cambio de fondos en la cuenta atrás. De esta forma, siempre que invoquemos al evento "Inicializar", empezará la cuenta atrás mostrando los diferentes fondos (3, 2, 1).
 
-Por último, invocamos al evento "Comienza juego" al presionar la bandera verde.
+![](img/pong1.gif "Evento Inicializar")
+
+Por último, invocamos al evento "Inicializar" para que sea lo primero que se ejecute al presionar la bandera verde.
+
+![](img/pong2.gif "Bandera verde - llamar a Inicializar")
+
+![](img/pong1.png)
 
 > Observar que si durante el transcurso del videojuego volvemos a invocar a la función "inicializar", los fondos volverán a cambiarse (3, 2, 1).
 
