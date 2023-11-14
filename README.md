@@ -78,6 +78,8 @@ Como se puede observar, la velocidad de la bola será siempre la misma. Haremos 
 
 ![](img/pong4.png)
 
+![](img/pong5.png)
+
 <br />
 
 
