@@ -24,12 +24,6 @@ En este caso, como el juego no lo vamos a acabar en un día, es recomendable que
 
 ## Escenario
 
-<div class="iframe">
-  <iframe src="//www.youtube.com/embed/-S5TDAg2LIw" allowfullscreen></iframe>
-</div>
-
-### Escenario del videojuego
-
 En primer lugar, comprueba que tenemos creados 4 escenarios. 
 
 - Los 3 primeros corresponden a la cuenta atrás antes del inicio del juego (3, 2 y 1). 
@@ -59,12 +53,6 @@ Por último, invocamos al evento "Inicializar" para que sea lo primero que se ej
 
 ## Pelota
 
-<div class="iframe">
-  <iframe src="//www.youtube.com/embed/mfNMeEo0cHI" allowfullscreen></iframe>
-</div>
-
-### Programación de la pelota
-
 Nos dirigimos al objeto que utilizaremos como bola, y ajustamos el tamaño deseado. Además, inicializamos los valores por defecto que tomará dicho objeto. En este caso, la posición va a ser la posición 0 en el eje X y la posición 0 en el eje Y, es decir, (0,0).
 
 ![](img/pong2.png)
@@ -74,6 +62,11 @@ También le vamos a añadir un ángulo aleatorio de giro. En este caso, vamos a 
 ![](img/pong3.png)
 
 
+### Programación de la pelota
+
+Lo primero que haremos es crear un evento "Comenzar juego" dentro de la bandera verde (en el objeto escenario). Una vez lo tengamos, añadimos el bloque también a la pelota.
+
+![](img/pong3.gif "Bandera verde - llamar a Comenzar juego")
 
 Como se puede observar, la velocidad de la bola será siempre la misma. Si queremos que cambie, tenemos que guardar el valor en una variable. Con lo cual, creamos una variable llamada velocidad.
 
@@ -139,18 +132,6 @@ Cuando el objeto Bola toca al objeto Player 1 o Player 2, realizamos el cambio d
 Para solucionarlo basta con añadir un bloque para que la bola se desplace obligatoriamente justo después de cambiar de dirección, y de esa forma, evitar que vuelva a tocar la paleta en el mismo instante.
 
 ![](img/duda-de-jordi-solucion.jpg "Duda resuelta")
-
-
-
-<br />
-
-
-
-## Mejores proyectos
-
-![](img/proyecto-legoman_7.gif "legoman_7")
-
-![](img/proyecto-pablorubma.gif "pablorubma")
 
 
 
