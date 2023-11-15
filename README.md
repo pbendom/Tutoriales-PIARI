@@ -70,7 +70,8 @@ Lo primero que haremos es crear un evento "Comenzar juego" dentro de la bandera 
 
 La pelota se debe mover N pasos y rebotar si toca el borde. Para indicarle el valor N, creamos una variable llamada "Velocidad".
 
-    NOTA: Como ya sabemos de otras prácticas, siempre que se utilizan variables debemos de inicializarlas a un valor por defecto. En este caso, le asignamos el valor en la función "Inicializar".
+    NOTA: Como ya sabemos de otras prácticas, siempre que se utilizan variables debemos de inicializarlas a un valor por defecto. 
+    En este caso, le asignamos el valor en la función "Inicializar".
 
 ![](img/pong4.gif "Bandera verde - añadir variable")
 
@@ -81,76 +82,3 @@ Como se puede observar, la velocidad de la bola será siempre la misma. Haremos 
 ![](img/pong5.png)
 
 <br />
-
-
-
-## Jugadores
-
-<div class="iframe">
-  <iframe src="//www.youtube.com/embed/ze-cvFf5DfE" allowfullscreen></iframe>
-</div>
-
-### Jugadores del videojuego
-
-Mediante el editor de fondos o con ayuda de otro software extreno, creamos las palas de lo ambos jugadores, cada una de un color.
-
-En primer lugar se inicializan las posiciones origen de cada paleta, en su eje x e y respectivamente. A continuación al recibir la llamada del evento `Comienza juego` cambiamos las posiciones de la coordenada vertical para que la paleta suba o baje según la tecla presionada.
-
-Por último, modificamos la programación de la bola para que rebote no sólo cuando toca un borde, sino que además deberá rebotar si toca cualquiera de las paletas.
-
-![](img/jugadores.jpg "Jugadores del videojuego")
-
-
-
-<br />
-
-
-
-## Mejoras
-
-<div class="iframe">
-  <iframe src="//www.youtube.com/embed/qYQzBsWAmhU" allowfullscreen></iframe>
-</div>
-
-### Mejoras aplicadas al videojuego
-
-Se crean 2 variables donde almacenaremos los puntos de cada jugador. De este modo cada vez que la bola toque un borde opuesto al jugador, este sumará 1 punto. Para detectar dichos bordes, nos ayudamos de las coordenadas sobre el eje horizontal X, detectando si el valor de X es menor o igual casi el total del borde de la pantalla.
-
-![](img/mejoras.jpg "Mejoras aplicadas al videojuego")
-
-
-
-<br />
-
-
-## Dudas en YouTube
-
-En esta lección vamos a responder a una duda muy común que suele aparecer en este tipo de videojuegos cuando se cambia un objeto de dirección durante el transcurso del videojuego. Esta duda la plantea Jordi a través de un comentario en nuestro canal de YouTube.
-
-![](img/duda-de-jordi.jpg "Duda de Jordi")
-
-**Problema**
-
-Cuando el objeto Bola toca al objeto Player 1 o Player 2, realizamos el cambio de dirección mediante la ecuación matemática (dirección * -1) y además le añadimos una pequeña desviación de 5º. El problema es que según varios factores (tamaño de la bola, velocidad de nuestro ordenador, etc.) se realizan varios cambios de dirección, sin que la bola llegue a desplazarse, lo que crea el efecto de que la bola queda enganchada a la paleta como comenta Jordi en el comentario.
-
-**Solución**
-
-Para solucionarlo basta con añadir un bloque para que la bola se desplace obligatoriamente justo después de cambiar de dirección, y de esa forma, evitar que vuelva a tocar la paleta en el mismo instante.
-
-![](img/duda-de-jordi-solucion.jpg "Duda resuelta")
-
-
-
-<br />
-
-
-
-## Retos de Scratch
-
-Si ya has completado todas las lecciones del tutorial te proponemos resolver los siguientes retos de programación con Scratch.
-
-### Reto 1: El primero en llegar a 10 puntos gana
-
-Si juegas durante mucho tiempo te derás cuenta que el videojuego no termina nunca. En este reto te propongo añadir a la programación una condición que muestre un mensaje por pantalla cuando un jugador llegue a 10 puntos. Esta programación deberás realizarla en el escenario.
-
-![](img/reto-1.jpg "El primero en llegar a 10 puntos gana")
