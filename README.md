@@ -82,3 +82,41 @@ Como se puede observar, la velocidad de la bola será siempre la misma. Haremos 
 ![](img/pong5.png)
 
 <br />
+
+
+## Jugadores
+
+En primer lugar, se inicializan las posiciones origen de cada "pala" de los jugadores, en su eje X (valor 227) e Y (valor 0) respectivamente.
+
+![](img/ini_jugador1.png) 
+![](img/ini_jugador2.png)
+
+    OJO: la paleta del jugador de la izquierda tendrá un valor negativo y el de la derecha positivo!!
+
+A continuación, pondremos bloques para que al recibir la llamada del evento "Comenzar juego" cambiamos las posiciones de la coordenada vertical para que la paleta suba o baje según la tecla presionada. *¡CUIDADO, no asignes las mismas teclas para controlar a los dos jugadores distintos!*
+
+    Para el jugador de la derecha, usa las teclas: flecha arriba y flecha abajo.
+    Para el jugador de la izquierda, elige libremente las teclas. Para este tutorial, pondremos: "q" (arriba) y "a" (abajo).
+
+### Jugador 1
+![](img/jug1.png)
+
+### Jugador 2
+![](img/jug2.png)
+
+Por último, modificamos la programación de la pelota para que rebote no sólo cuando toca un borde, sino que además deberá rebotar si toca cualquiera de las palas de los jugadores:
+
+
+
+## Puntos
+
+
+
+## Mejoras a realizar:
+
+- Añadir música de fondo. Debe sonar durante todo el rato, hasta que un jugador pierda.
+- Añadir efecto de sonido para cada GOL marcado.
+- Cuando un jugador pierda la partida, debe sonar un efecto de sonido distinto.
+- Crear / Modificar fondo GAME OVER a vuestro gusto.
+
+
