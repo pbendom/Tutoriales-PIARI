@@ -131,7 +131,7 @@ Ahora, haremos que cada vez que la bola toque un borde opuesto al jugador, este 
 
 ## Puntos - el que llegue a 10 GANA
 
-Si juegas durante mucho tiempo, te derás cuenta de que el videojuego no termina nunca. Vamos a añadir a la programación una condición que muestre un mensaje por pantalla cuando un jugador llegue a 10 puntos. Esta programación la realizaremos en un nuevo escenario que llamaremos GAME OVER.
+Si juegas durante mucho tiempo, te darás cuenta de que el videojuego no termina nunca. Vamos a añadir a la programación una condición que muestre un mensaje por pantalla cuando un jugador llegue a 10 puntos. Esta programación la realizaremos en un nuevo escenario que llamaremos GAME OVER.
 
 ### Escenario GAME OVER
 ![](img/game_over.png)
