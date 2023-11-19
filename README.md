@@ -50,7 +50,6 @@ Por último, invocamos al evento "Inicializar" para que sea lo primero que se ej
 <br />
 
 
-
 ## Pelota
 
 Nos dirigimos al objeto que utilizaremos como bola, y ajustamos el tamaño deseado. Además, inicializamos los valores por defecto que tomará dicho objeto. En este caso, la posición va a ser la posición 0 en el eje X y la posición 0 en el eje Y, es decir, (0,0).
@@ -93,10 +92,10 @@ En primer lugar, se inicializan las posiciones origen de cada "pala" de los juga
 
     OJO: la paleta del jugador de la izquierda tendrá un valor negativo y el de la derecha positivo!!
 
-A continuación, pondremos bloques para que al recibir la llamada del evento "Comenzar juego" cambiamos las posiciones de la coordenada vertical para que la paleta suba o baje según la tecla presionada. *¡CUIDADO, no asignes las mismas teclas para controlar a los dos jugadores distintos!*
+A continuación, pondremos bloques para que al recibir la llamada del evento "Comenzar juego" cambiemos las posiciones de la coordenada vertical para que la paleta suba o baje según la tecla presionada. *¡CUIDADO, no asignes las mismas teclas para controlar a los dos jugadores distintos!*
 
-    Para el jugador de la derecha, usa las teclas: flecha arriba y flecha abajo.
-    Para el jugador de la izquierda, elige libremente las teclas. Para este tutorial, pondremos: "q" (arriba) y "a" (abajo).
+    *Para el jugador de la derecha, usa las teclas: flecha arriba y flecha abajo.
+    *Para el jugador de la izquierda, elige libremente las teclas. Para este tutorial, pondremos: "q" (arriba) y "a" (abajo).
 
 ### Jugador 1
 ![](img/jug1.png)
@@ -104,11 +103,17 @@ A continuación, pondremos bloques para que al recibir la llamada del evento "Co
 ### Jugador 2
 ![](img/jug2.png)
 
-Por último, modificamos la programación de la pelota para que rebote no sólo cuando toca un borde, sino que además deberá rebotar si toca cualquiera de las palas de los jugadores:
+Por último, modificamos la programación de la pelota para que rebote no sólo cuando toca un borde, sino que además deberá rebotar si toca cualquiera de las palas de los jugadores. Para eso, multiplicaremos la dirección que tengamos en ese momento por (-1), ya que el rebote debe ser la dirección contraria.
 
+![](img/pelota_jug.png)
+
+<br />
 
 
 ## Puntos
+
+
+## Incrementar velocidad
 
 
 
