@@ -111,7 +111,7 @@ Por último, modificamos la programación de la pelota para que rebote no sólo 
 <br />
 
 
-## Puntos
+## Marcador (puntos)
 Crearemos 2 variables nuevas (Jugador 1 y Jugador 2) donde almacenaremos los puntos de cada jugador. Las inicializaremos a 0 en el evento de bandera verde, y haremos que sean visibles en la pantalla. Dales la posición que más te guste:
 
 ![](img/var_jug.png) ![](img/marcador.png)
