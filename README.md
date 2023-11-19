@@ -151,7 +151,7 @@ Para ello, primero nos crearemos una nueva variable "Tiempo" que almacenará una
 
 En Scratch, tenemos disponible un cronómetro dentro de los bloques de sensores. Lo primero que haremos será añadir los bloques para reiniciar la variable "Tiempo" y cronómetro al evento "Inicializar" dentro del escenario:
 
-![](img/tiempo3.png)
+![](img/crono.png) ![](img/tiempo3.png)
 
 A continuación, dentro de los bloques de la pelota, añadiremos un evento nuevo para "Comenzar juego" donde asignemos a la variable "Tiempo" su valor de cuenta atrás: Tiempo - cronómetro.
 
