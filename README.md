@@ -169,6 +169,6 @@ Como queremos que el contador se reinicie cada 25 segundos, añadimos una condic
 - Añadir música de fondo. Debe sonar durante todo el rato, hasta que un jugador pierda.
 - Añadir efecto de sonido para cada GOL marcado.
 - Cuando un jugador pierda la partida, debe sonar un efecto de sonido distinto.
-- Crear / Modificar escenario GAME OVER a vuestro gusto.
+- Crear / Modificar el fondo GAME OVER a vuestro gusto. Si quieres, puedes modificar también los demás fondos del escenario principal.
 
 
