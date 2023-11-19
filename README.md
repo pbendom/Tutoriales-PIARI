@@ -90,12 +90,12 @@ En primer lugar, se inicializan las posiciones origen de cada "pala" de los juga
 ![](img/ini_jugador1.png) 
 ![](img/ini_jugador2.png)
 
-    OJO: la paleta del jugador de la izquierda tendrá un valor negativo y el de la derecha positivo!!
+> OJO: la paleta del jugador de la izquierda tendrá un valor negativo y el de la derecha positivo!!
 
 A continuación, pondremos bloques para que al recibir la llamada del evento "Comenzar juego" cambiemos las posiciones de la coordenada vertical para que la paleta suba o baje según la tecla presionada. *¡CUIDADO, no asignes las mismas teclas para controlar a los dos jugadores distintos!*
 
-    *Para el jugador de la derecha, usa las teclas: flecha arriba y flecha abajo.
-    *Para el jugador de la izquierda, elige libremente las teclas. Para este tutorial, pondremos: "q" (arriba) y "a" (abajo).
+- Para el jugador de la derecha, usa las teclas: flecha arriba y flecha abajo.
+- Para el jugador de la izquierda, elige libremente las teclas. Para este tutorial, pondremos: "q" (arriba) y "a" (abajo).
 
 ### Jugador 1
 ![](img/jug1.png)
@@ -120,9 +120,9 @@ Crearemos 2 variables nuevas (Jugador 1 y Jugador 2) donde almacenaremos los pun
 
 Ahora, haremos que cada vez que la bola toque un borde opuesto al jugador, este sume 1 punto (incrementamos el valor de la variable): 
 
-    Para detectar dichos bordes nos ayudamos de las coordenadas sobre el eje horizontal X, detectando si el valor de X es menor o mayor a 227 para saber a qué jugador sumarle los puntos.
-    
-    Podríamos pensar que con indicarle que sea mayor o menor a 0 es suficiente, pero dado que hay también bordes superiores e inferiores (eje Y), ¡podría darse el caso de que se sumen puntos incorrectamente!
+> Para detectar dichos bordes nos ayudamos de las coordenadas sobre el eje horizontal X, detectando si el valor de X es menor o mayor a 227 para saber a qué jugador sumarle los puntos.
+
+> Podríamos pensar que con indicarle que sea mayor o menor a 0 es suficiente, pero dado que hay también bordes superiores e inferiores (eje Y), ¡podría darse el caso de que se sumen puntos incorrectamente!
 
 ![](img/puntos.png)
 
@@ -157,7 +157,9 @@ A continuación, dentro de los bloques de la pelota, añadiremos un evento nuevo
 
 ![](img/tiempo4.png)
 
-Como queremos que el contador se reinicie cada 25 segundos, añadimos una condición para que en cuanto la variable "Tiempo" llegue a 0 segundos se reinicie a 25. Además, en ese mismo momento, se deberá incrementar el valor de la variable "Velocidad". *Elige el incremento de velocidad que quieras, ¡pero no te pases o será IMPOSIBLE de jugar!*.
+Como queremos que el contador se reinicie cada 25 segundos, añadimos una condición para que en cuanto la variable "Tiempo" llegue a 0 segundos se reinicie a 25. Además, en ese mismo momento, se deberá incrementar el valor de la variable "Velocidad". 
+
+> Elige el incremento de velocidad que quieras, ¡pero no te pases o será IMPOSIBLE de jugar!
 
 ![](img/tiempo5.png)
 
