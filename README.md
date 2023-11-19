@@ -105,16 +105,63 @@ A continuación, pondremos bloques para que al recibir la llamada del evento "Co
 
 Por último, modificamos la programación de la pelota para que rebote no sólo cuando toca un borde, sino que además deberá rebotar si toca cualquiera de las palas de los jugadores. Para eso, multiplicaremos la dirección que tengamos en ese momento por (-1), ya que el rebote debe ser la dirección contraria.
 
+### Pelota actualizada
 ![](img/pelota_jug.png)
 
 <br />
 
 
 ## Puntos
+Crearemos 2 variables nuevas (Jugador 1 y Jugador 2) donde almacenaremos los puntos de cada jugador. Las inicializaremos a 0 en el evento de bandera verde, y haremos que sean visibles en la pantalla. Dales la posición que más te guste:
+
+![](img/var_jug.png) ![](img/marcador.png)
+
+<br />
+
+Ahora, haremos que cada vez que la bola toque un borde opuesto al jugador, este sume 1 punto (incrementamos el valor de la variable): 
+
+    Para detectar dichos bordes nos ayudamos de las coordenadas sobre el eje horizontal X, detectando si el valor de X es menor o mayor a 227 para saber a qué jugador sumarle los puntos.
+    
+    Podríamos pensar que con indicarle que sea mayor o menor a 0 es suficiente, pero dado que hay también bordes superiores e inferiores (eje Y), ¡podría darse el caso de que se sumen puntos incorrectamente!
+
+![](img/puntos.png)
+
+<br />
 
 
-## Incrementar velocidad
+## Puntos - el que llegue a 10 GANA
 
+Si juegas durante mucho tiempo, te derás cuenta de que el videojuego no termina nunca. Vamos a añadir a la programación una condición que muestre un mensaje por pantalla cuando un jugador llegue a 10 puntos. Esta programación la realizaremos en un nuevo escenario que llamaremos GAME OVER.
+
+### Escenario GAME OVER
+![](img/game_over.png)
+
+### Programación GAME OVER
+![](img/game_over2.png)
+
+<br />
+
+
+## Incrementar velocidad de la pelota con cuenta atrás (cronómetro)
+Por último, daremos a la velocidad de la pelota un plus de rapidez cada 25 segundos. 
+
+Para ello, primero nos crearemos una nueva variable "Tiempo" que almacenará una cuenta atrás para guiar a los jugadores:
+
+![](img/tiempo.png) ![](img/tiempo2.png)
+
+En Scratch, tenemos disponible un cronómetro dentro de los bloques de sensores. Lo primero que haremos será añadir los bloques para reiniciar la variable "Tiempo" y cronómetro al evento "Inicializar" dentro del escenario:
+
+![](img/tiempo3.png)
+
+A continuación, dentro de los bloques de la pelota, añadiremos un evento nuevo para "Comenzar juego" donde asignemos a la variable "Tiempo" su valor de cuenta atrás: Tiempo - cronómetro.
+
+![](img/tiempo4.png)
+
+Como queremos que el contador se reinicie cada 25 segundos, añadimos una condición para que en cuanto la variable "Tiempo" llegue a 0 segundos se reinicie a 25. Además, en ese mismo momento, se deberá incrementar el valor de la variable "Velocidad". *Elige el incremento de velocidad que quieras, ¡pero no te pases o será IMPOSIBLE de jugar!*.
+
+![](img/tiempo5.png)
+
+<br />
 
 
 ## Mejoras a realizar:
@@ -122,6 +169,6 @@ Por último, modificamos la programación de la pelota para que rebote no sólo 
 - Añadir música de fondo. Debe sonar durante todo el rato, hasta que un jugador pierda.
 - Añadir efecto de sonido para cada GOL marcado.
 - Cuando un jugador pierda la partida, debe sonar un efecto de sonido distinto.
-- Crear / Modificar fondo GAME OVER a vuestro gusto.
+- Crear / Modificar escenario GAME OVER a vuestro gusto.
 
 
