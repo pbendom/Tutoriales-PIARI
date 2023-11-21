@@ -168,6 +168,7 @@ Como queremos que el contador se reinicie cada 25 segundos, añadimos una condic
 
 ## Mejoras a realizar:
 
+- Preguntar el nombre de los jugadores al inicio del programa y mostrarlo durante la partida. *PISTA: usar bloques pregunta-respuesta y variables.*
 - Añadir música de fondo. Debe sonar durante todo el rato, hasta que un jugador pierda.
 - Añadir efecto de sonido para cada GOL marcado.
 - Cuando un jugador pierda la partida, debe sonar un efecto de sonido distinto.
