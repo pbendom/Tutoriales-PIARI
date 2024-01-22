@@ -1,16 +1,25 @@
-* Seminario "herramientas TIC para la docencia" 22/23
-[[./imagenes/logos.PNG]]
+* Práctica 1. Mi primera app: CACHORRO (botones y sonidos)
+[[./imagenes/cachorro.PNG]]
+[[./imagenes/codigo.PNG]]
 
-Curso de formación sobre herramientas digitales para el profesorado del IES MUTXAMEL.
+*** Materiales:
+[[./sesion-2.org][AULES básico.]]
 
-** Sesiones
-1.  [[./sesion-1.org][Configuración de correo electrónico y herramientas corporativas M365.]] (16-nov-2022)
-2.  [[./sesion-2.org][AULES básico.]] (7-dic-2022)
-3.  [[./sesion-2.org][AULES básico 2. Actividades de tipo Taller para la evaluación entre iguales.]] (11-ene-2023)
-4.  [[./sesion-5.org][Generando contenido con herramientas de Inteligencia Artificial. Análisis de las ventajas y posibles problemáticas con el alumnado dentro y fuera del aula.]] (18-ene-2023) 
-5.  [[./sesion-3.org][Evaluando con AULES.]] (25-ene-2023)
-6.  [[./sesion-6.org][Identidad Digital. Microsoft Outlook + Teams en el aula.]] (1-feb-2023)
-7.  [[./sesion-4.org][Gestión de la información creada en AULES.]] (8-feb-2023)
-8.  [[./sesion-8.org][Generación de contenido digital. H5P. Herramientas digitales para metodología de clase invertida (Flipped Classroom).]] (15-feb-2023)
-9.  [[./sesion-9.org][Herramientas digitales en la web 2.0 para el trabajo colaborativo y ABP.]] (8-mar-2023)
-10. [[./sesion-10.org][Métodos anticopia. Conclusiones y cierre de curso.]] (15-mar-2023)
+[[./sesion-2.org][AULES básico.]]
+
+*** Desarrollo de la práctica:
+La app consiste en lo siguiente:
+- Un botón que contendrá una imagen de un perro. Puedes buscar alguna sin derechos de autor  en https://pixabay.com/es/images/search/perro/
+- Cuando presionemos el botón pasarán dos cosas:
+  1. Escucharemos al perro ladrar. http://www.sonidosmp3gratis.com/perro
+  2. Aparecerá un mensaje en la pantalla que antes estaba oculto (por ejemplo, "TE QUIERO"). 
+
+*** Entrega:
+
+- Proyecto con extensión (.aia) descargado desde App Inventor:
+[[./imagenes/exportacion.PNG]]
+
+- Aplicación Android (.apk) generada por App Inventor:
+[[./imagenes/apk.PNG]]
+
+- Súbelo a la tarea de AULES disponible.
