@@ -1,11 +1,11 @@
 * Práctica 1. Mi primera app: CACHORRO (botones y sonidos)
-[[./imagenes/cachorro.PNG]]
-[[./imagenes/codigo.PNG]]
+[[./imagenes/cachorro.png]]
+[[./imagenes/codigo.png]]
 
 *** Materiales:
-[[./sesion-2.org][AULES básico.]]
+[[./archivos/dog.jpeg][Imagen del perro.]]
 
-[[./sesion-2.org][AULES básico.]]
+[[./archivos/ladrido.mp3][Sonido de ladrido.]]
 
 *** Desarrollo de la práctica:
 La app consiste en lo siguiente:
@@ -17,9 +17,9 @@ La app consiste en lo siguiente:
 *** Entrega:
 
 - Proyecto con extensión (.aia) descargado desde App Inventor:
-[[./imagenes/exportacion.PNG]]
+[[./imagenes/exportacion.png]]
 
 - Aplicación Android (.apk) generada por App Inventor:
-[[./imagenes/apk.PNG]]
+[[./imagenes/apk.png]]
 
 - Súbelo a la tarea de AULES disponible.
